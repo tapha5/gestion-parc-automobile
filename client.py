@@ -3,7 +3,8 @@ class Client:
     def __init__(self, id_client, nom):
        
         self._id_client = id_client
-        self._nom = nom     
+        self._nom = nom
+        
     
     def get_id_client(self):
        
